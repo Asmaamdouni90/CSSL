@@ -196,27 +196,17 @@ h2 {
 }
 .sect > h1 {
   width: 245px;
-  height: 100px;
+  height: 200px;
 }
 .listsect3 {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
-  width: 700px;
-  height: 30px;
+  width: 600px;
+  height: 200px;
   /*border: 1px solid rgb(56, 20, 216);*/
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 1em 0;
-}
-
-.list2sect3 {
-  display: flex;
-  list-style: none;
-  width: 700px;
-  height: 30px;
-  /*border: 1px solid rgb(56, 20, 216);*/
-  justify-content: space-between;
-  margin: 1em 0;
-  margin-top: 4px;
 }
 
 .divlist {
@@ -241,16 +231,115 @@ ul > li > a > svg {
   width: auto;
   /*border: 1px solid rgb(216, 20, 151);*/
 }
-
-.sect4 {
-  /* border: 1px solid rgb(121, 20, 216);*/
+.sec4 {
   width: 1339px;
   height: 600px;
   background: #e5faf8;
+  /*border: 1px solid rgb(40, 20, 216);*/
+  display: flex;
+  justify-content: space-evenly;
+}
+.sect4 {
+  width: 658px;
+  height: 590px;
+  background: #e5faf8;
   margin: -10px;
-  margin-top: 28px;
+  /* border: 1px solid rgb(216, 20, 151);*/
+  margin-top: 1px;
+}
+.sect4hp {
+  /*border: 1px solid rgb(43, 216, 20);*/
+
+  margin-left: 130px;
+}
+.sect4hp > h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+  width: 430px;
+  height: 88px;
+  margin-top: 70px;
+  margin-left: 30px;
+  /* border: 1px solid rgb(121, 20, 216);*/
 }
 
+.sect4hp > p {
+  font-family: roboto;
+  font-size: 14px;
+  color: #747474;
+  width: 415px;
+  height: 48px;
+  /* border: 1px solid rgb(121, 20, 216);*/
+  margin-top: 3px;
+  margin: 0.8em 0;
+  line-height: 1.65;
+  font-weight: 400;
+  margin-left: 40px;
+}
+.sect4icone {
+  /*border: 1px solid rgb(10, 10, 10);*/
+  width: 456px;
+  height: 330px;
+  background-image: url("https://www.docplanner.com/img/logo.png");
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.mrgelmsec4 {
+  margin-top: 20px;
+}
+.sectt4 {
+  border: 1px solid #e5faf8;
+  width: 620px;
+  height: 590px;
+  background: #e5faf8;
+  margin: -10px;
+  /*border: 1px solid rgb(216, 20, 151);*/
+  margin-top: 1px;
+  margin-right: 122px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.elmsec4 {
+  width: 230px;
+  height: 250px;
+  background: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#img1sctt4 {
+  margin-top: 20px;
+}
+#img2sctt4,
+#img3sctt4,
+#img4sctt4 {
+  margin-top: 50px;
+}
+.elmsec4 > h3 {
+  color: #00b39b;
+  margin: 0.5em 0;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  text-align: center;
+  font-size: 24px;
+}
+.elmsec4 > p {
+  font-family: roboto;
+  font-size: 13px;
+  color: #747474;
+  width: 215px;
+  height: 48px;
+  /* border: 1px solid rgb(121, 20, 216);*/
+  margin-top: 3px;
+  margin: 0.8em 0;
+  line-height: 1.65;
+  font-weight: 400;
+  text-align: center;
+}
 .sect5 > h1 {
   color: #00b39b;
   font-size: 30px;
@@ -267,7 +356,7 @@ ul > li > a > svg {
   color: #747474;
   width: 460px;
   height: 96px;
-  /* border: 1px solid rgb(121, 20, 216);*/
+  /*border: 1px solid rgb(121, 20, 216);*/
   margin-top: 3px;
   margin: 0.8em 0;
   line-height: 1.65;
@@ -281,24 +370,58 @@ ul > li > a > svg {
   align-items: center;
 }
 .sect6 {
-  width: 950px;
-  height: 1100px;
+  width: 1100px;
+  height: 950px;
   /*border: 1px solid rgb(216, 20, 20);*/
   margin-left: 160px;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 #pic {
-  width: 310px;
+  width: 280px;
   height: 256px;
   border-radius: 10px;
+  margin-left: 2px;
+  /*border: 1px solid rgb(216, 20, 20);*/
 }
+#btn {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  background: #3d83df;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1em;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease 0s;
+  font-size: 0.625rem;
+  padding: 1em 1.5em;
+}
+.dvbtn {
+  display: flex;
+  justify-content: space-around;
+}
+#linkpic {
+  color: #747474;
+  text-decoration: none;
+  font-size: 18px;
+}
+
 .sect7 > h1 {
   font-size: 2.1428571429em;
   color: #333;
   margin-bottom: 0.75em;
+  margin-top: 100px;
 }
-#btn {
+#btnsect7 {
   display: inline-block;
   vertical-align: middle;
   position: relative;
